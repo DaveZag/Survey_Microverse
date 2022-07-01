@@ -91,3 +91,12 @@ input[type="tel"] {
   color: black;
   background-color: #a8c7ef;
 }
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.8rem;
+  }
+  form {
+    width: 90%;
+    font-size: 0.7rem;
+  }
+}
